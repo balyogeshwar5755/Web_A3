@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeyondEarth</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Life Beyond Earth</h1>
+        <img src="https://cdn.mos.cms.futurecdn.net/xcLR5HMU2kxskdAy3ZVuTf-970-80.jpg.webp" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <h2>Geography</h2>
+        <ul>
+            <li>Stars</li>
+            <li>Planets</li>
+            <li>Earth</li>
+        </ul>
+    </aside>
+    <main>
+        <h3>CONTACT US!</h3>
+        <form id="ContactForm">
+            <fieldset>
+                <legend>"Personal Information"</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="employmentStatus">Employement Status:</label>
+                <select id="employmentStatus" name="employmentStatus" required>
+                    <option value="" disabled selected>Select Option</option>
+                    <option value="Student">Student</option>
+                    <option value="Employed Full-time">Employed Full-time</option>
+                    <option value="Employed Part-time">Employed Part-time</option>
+                    <option value="Retired">Retired</option>
+                    <option value="Other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>How did you hear about our site?</legend>
+                <label><input type="radio" name="howDidYouHear" value="Social Media">Socail Media</label>
+                <label><input type="radio" name="howDidYouHear" value="Friend">Friend</label>
+                <label><input type="radio" name="howDidYouHear" value="Search Engine">Search Engine</label>
+                <label><input type="radio" name="howDidYouHear" value="Other">Other</label>
+            </fieldset>
+            <fieldset>
+                <legend>Tell us what you think</legend>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Submit</legend>
+                <label><input type="checkbox" name="notARobot">I am not a robot.</label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset> 
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Jasleen Kaur 8884849</p>
+    </footer>
+</body>
+</html>
